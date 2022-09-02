@@ -1,6 +1,6 @@
-x = input("Enter The character that you want to check for int:")
+nome='123'
 
-if(x >= '0' and x <= '9'):
-    print("It is a Number")
-else:
-    print("It is Not a Number")
+
+x = nome.isalpha()
+
+print(x)

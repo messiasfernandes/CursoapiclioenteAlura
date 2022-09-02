@@ -10,7 +10,7 @@ class Cliente(models.Model):
     ativo = models.BooleanField()
    
     def clean(self):
-            self.nome = str(self.nome.upper())
+          ##  self.nome = str(self.nome.upper())
             self.email= str(self.email.lower())
     def __str__(self):
         return self.nome
